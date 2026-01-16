@@ -15,11 +15,6 @@ if (!config.api.port) {
   process.exit(1);
 }
 
-function unused() {
-  // ...
-}
-
-
 const app = express();
 app.use(express.json());
 
